@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+body{
+    background-color: white;
+    padding: 10px;
+}
+.hero{
+    margin-top: 300px;
+    padding: 10px;
+    width: 600px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 5px 5px 15px 3px gray;
+    border-radius: 20px;
+    align-items: center;
+    color: #102357;
+}
+.inputD{
+    padding: 10px;
+    width: 350px;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 10px;
+    border-color: black;
+    margin-top: 30px;
+}
+.inputD:hover{
+    border-color: #102357;
+}
+.btn{
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: #102357;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+.btn:hover{
+    background-color: white;
+    color: #102357;
+    border: 2px solid #102357;
+}
+.answerP{
+    margin-top: 35px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .hero {
+        width: 90%;
+        max-width: 500px;
+        height: auto;
+        margin-top: 100px;
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+    
+    h3 {
+        font-size: 14px;
+    }
+    
+    .inputD {
+        width: 100%;
+        max-width: 300px;
+        height: 45px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    
+    .btn {
+        width: 100%;
+        max-width: 180px;
+        height: 40px;
+        margin-top: 15px;
+    }
+    
+    .answerP {
+        margin-top: 25px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero {
+        width: 95%;
+        max-width: 100%;
+        height: auto;
+        margin-top: 50px;
+        padding: 15px;
+        box-shadow: 3px 3px 10px 2px gray;
+    }
+    
+    h1 {
+        font-size: 18px;
+        line-height: 1.3;
+    }
+    
+    h3 {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    
+    .inputD {
+        width: 100%;
+        max-width: 100%;
+        height: 40px;
+        font-size: 14px;
+        margin-top: 15px;
+        padding: 8px;
+    }
+    
+    .btn {
+        width: 100%;
+        height: 40px;
+        margin-top: 12px;
+        font-size: 14px;
+    }
+    
+    .answerP {
+        margin-top: 20px;
+        font-size: 14px;
+        word-wrap: break-word;
+    }
+}
