@@ -32,6 +32,7 @@ function showOutcome(){
     }
     else if( accountBalance >= 30001 && accountBalance <= 50000){
         destination = 'ABUJA'
+        outcome.innerHTML = destination
     }
 
     else{ destination = 'Enter A Valid Number (Amount budget should not exceed 50000)'
